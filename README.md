@@ -5,7 +5,7 @@ Objective: Develop a Mobile App for Student Financial Aid Office (SFAO) of Sindh
 Provide awareness and access to the Available Scholarships, Procedure of Application and a user friendly platform for students.
 
 ## UI Design
-![Home Screen of SFAO App](/Screen_home.png) ![Donors Screen of SFAO App](https://drive.google.com/file/d/1ctjFv8-QGLqnQfs1hKI3m3GpqRrZvc83/view?usp=drive_link)
+![Home Screen of SFAO App](/Screen_home.png) ![Scholarships Screen of SFAO App](/Screen_scholarships.png) ![Donors Screen of SFAO App](/Screen_donors.png)
 
 ## Prototype
 Prototype is built and available on Figma for public feedback from students.
