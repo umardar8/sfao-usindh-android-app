@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/component_container"
+    tools:showIn="@layout/fragment_scholarships">
+
+    <ImageView style="@style/list_image"
+        android:id="@+id/logo_image"
+        android:contentDescription="@string/donor_logo" />
+
+    <LinearLayout style="@style/information_column">
+
+        <TextView style="@style/scholarship_title"
+            android:id="@+id/title" />
+
+        <LinearLayout style="@style/information_lastDate">
+
+            <TextView style="@style/lastDate_heading" />
+
+            <TextView style="@style/lastDate_value"
+                android:id="@+id/last_date_value" />
+
+        </LinearLayout>
+
+        <TextView style="@style/apply_text_button"
+            android:id="@+id/apply_button" />
+
+    </LinearLayout>
+
+</LinearLayout>

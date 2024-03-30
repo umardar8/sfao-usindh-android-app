@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Light theme -->
+    <style name="Base.Theme.SFAOAccess" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/dark_blue</item>
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="android:navigationBarColor">#090909</item>
+    </style>
+
+    <!-- Action Bar Theme -->
+    <style name="AppTheme.ActionBar" parent="Theme.Material3.DayNight">
+        <item name="height">70dp</item>
+        <item name="background">@color/dark_blue</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="AppTheme.WelcomeActivity" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="Theme.SFAOAccess" parent="Base.Theme.SFAOAccess" />
+</resources>

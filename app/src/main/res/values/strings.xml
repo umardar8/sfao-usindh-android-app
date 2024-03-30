@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">SFAO Access</string>
+    <string name="title_activity_welcome">Welcome Activity</string>
+    <string name="title_activity_main">Main Activity</string>
+    <!-- Scholarship and Donor Fragment Strings -->
+    <string name="title_one">Benazir (EHSAAS) Undergraduate Scholarship</string>
+    <string name="title_two">HEC Need Based Scholarship</string>
+    <string name="apply">Apply</string>
+    <string name="last_date">Last Date: &#160;</string>
+    <string name="last_date_one">10.10.2024</string>
+    <string name="donor_logo">Logo of Donor</string>
+    <string name="welcome_message">This office exists to bridge the gap between financial constraints and your yearning for knowledge. We believe that everyone deserves a chance to unlock their full potential, regardless of their financial background.</string>
+    <string name="title_three">Need-cum-Merit Scholarship</string>
+    <string name="title_four">National Endowment Scholarships for Talent (NEST)</string>
+    <string name="title_five">Sindh Educational Endowment Scholarship</string>
+    <string name="title_six">Minorities Scholarship</string>
+    <string name="title_seven">District Merit Scholarship</string>
+    <string name="title_eight">Punjab Educational Endowment Fund (PEEF)</string>
+    <string name="title_nine">Pakistan Scottish Scholarship</string>
+    <string name="title_ten">Pakistan Baitul Maal</string>
+    <string name="title_eleven">Diya Pak Scholarship</string>
+    <string name="title_twelve">Scheduled Caste Scholarship</string>
+    <string name="title_thirteen">SINDH HEC-SCHOLARSHIP</string>
+    <string name="title_fourteen">MS Amena Khamisani Scholarship</string>
+    <string name="awardees">Awardees: &#160;</string>
+    <string name="distributed">Distributed: &#160;</string>
+    <string name="awardees_one">3320</string>
+    <string name="distributed_one">PKR 205,840,000</string>
+    <string name="title_activity_my_dialog">MyDialog</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Strings used for Contact Dialog -->
+    <string name="contact_email"><u>info@usindh.edu.pk</u></string>
+    <string name="contact_address"><u>University of Sindh, Allama I.I. Kazi Campus, Jamshoro - 76080, Sindh, Pakistan</u></string>
+    <string name="heading_address">Address</string>
+    <string name="contact_phone">92–22–9213–181 (90)</string>
+    <string name="heading_contact_us">Contact Us</string>
+    <string name="work_hour_sat_sun">Closed</string>
+    <string name="work_hour_mon_fri">9:00 am - 3:00 pm</string>
+    <string name="heading_work_hour">Working Hour</string>
+    <string name="heading_contact">Contact Student Financial Aid Office</string>
+    <string name="about_one">The Ehsaas scholarship is an exciting program that aims help students who are facing financial difficulties.\n\nIt is a paradigm shift in a policy of the Government of Pakistan to support undergraduate level students who after completing FA/FSc./Intermediate are unable to pursue university education due to limited financial resources.\n\nThe scholarship covers university tuition fee and stipend throughout four-five years of degree duration.\n\nThe project aims to support female education therefore 50% of scholarships are reserved for the female students.\n\nTo encourage physically challenged students, 2% of the scholarships are reserved for them.\n\nIt foresees to create drive for education among those students who have discontinued  studies due to  limited financial issues.</string>
+    <string name="reqs">
+        <li>Student Card</li>\n
+        <li>Marksheet of Previous Semester</li>\n
+        <li>Domicile</li>\n
+        <li>CNIC</li>\n
+        <li>Father\'s Pay Slip</li>\n
+        <li>Duly Filled Application Form</li>
+    </string>
+    <string name="last_date_two">10.05.2024</string>
+    <string name="last_date_three">25.05.2024</string>
+    <string name="last_date_four">06.07.2024</string>
+    <string name="last_date_five">24.06.2024</string>
+    <string name="last_date_six">04.05.2024</string>
+    <string name="last_date_seven">04.06.2024</string>
+    <string name="last_date_eight">08.07.2024</string>
+    <string name="last_date_nine">15.09.2024</string>
+    <string name="last_date_ten">28.07.2024</string>
+    <string name="last_date_eleven">22.09.2024</string>
+    <string name="last_date_twelve">14.12.2024</string>
+    <string name="last_date_thirteen">18.08.2024</string>
+    <string name="last_date_fourteen">24.11.2024</string>
+    <string name="about_two">The Government of Pakistan acknowledges these constraints and has tasked Higher Education Commission to facilitate the needy and deserving students through Need Based Scholarships. Scholarships have been announced for financially disadvantaged　students of as many as 100 public sector universities and their campuses.</string>
+    <string name="about_three">Need-cum- Merit Based Scholarship opportunity is available for talented and financially disadvantaged students of Bachelors and Masters Regular Programs.\n\nNeed-Cum-Merit Based Scholarship provides an opportunity to deserving students, enabling them with desired competence and skills in public sector leading HEIs, as per the need of industry to play a vital role in the development and literacy of Pakistan.</string>
+    <string name="about_four">National Endowment Scholarships for Talent (NEST) provides need based scholarship to talented students in different fields of study. It is a self-sustainable program that invests in education by providing financial support to talented students and help them stand on their feet. NEST plans to achieve the target of providing 2000 scholarships every year to the talented but deserving students.</string>
+    <string name="about_five">The Sindh Educational Endowment Fund (SEEF) was created in 2002–03. It  is managed through Trust called Sindh Education Endowment fund  Trust. It aims to provide financial assistance to the students hailing from low income groups to acquire higher education from reputable public / private sector universities. \n\nIt was created by College Education Department, Government of Sindh to provide financial assistance for higher quality education to the most talented and needy students of Sindh has created Sindh Educational Endowment Fund(SEEF).Education is one of the most powerful instrument for reducing poverty and inequality. It also sets the foundation for sustainable economic growth of Sindh and Pakistan as well.\n\nIt aims to provide support  and assistance to impart education  and award scholarship  to the deserving  and needy  students of the Province of Sindh to enable  them  to complete their Graduate and Post-Graduate  education  in the field of Information Technology, Engineering, Medicine and Business Administration.</string>
+    <string name="about_six">The objective of minorities scholarship is Empowerment of Minority communities, groups, and individuals through their active participation in development programs for improved social functioning and quality of life.\n\nDevelopment and implementation of integrated safety net programs for Minority Communities that address social risks which are the result of unemployment, retirement, illness/disability, old age, and death.\n\nOrganizational transformation and development for effective management, communication, planning,  financial management, reporting and utilization of resources for the betterment of Minorities in Sindh.</string>
+    <string name="about_seven">The University admits a large number of students, majority belonging to rural areas and disadvantaged poor families, realizing that education has become very costly and it is difficult for them to pursue their education due to financial constraints. The University has taken initiative for providing financial relief to meritorious and deprived students with the financial assistances/need based scholarship programs. In this regard, the District Merit Scholarship is one of many programs which the University of Sindh has started to empower and assist the students financially.</string>
+    <string name="about_eight">The Punjab Educational Endowment Fund (PEEF) is a proactive scholarhsip scheme which provides scholarships at the doorstep of talented students of Punjab, Sindh, AJK, FATA, Gilgit Baltistan and ICT. The mission of PEEF is to build a critical mass of human capital, belonging to less priviledged areas of Punjab, participating in nation building; through the provision of equitable opportunities to the academically brilliant girls and boys.\n\nThere are more than 455,000 such success stories in Pakistan just because of the Scholarship program launched by Government of Punjab in 2009.</string>
+    <string name="about_nine">The Pakistan Scottish Scholarship for Young Women and Girls funds graduate studies for Pakistani women in any HEC recognized university across Pakistan. Funded by the Scottish Government, these grants aim to make higher education more accessible to women, supporting them in achieving their potential and ambition.\n\nScotland Pakistan Scholarships for Young Women and Girls is being offered at undergraduate level for a four-year’s bachelor’s degree as well.\n\nBritish Council will administer the scheme in Pakistan and coordinate with selected scholars and universities either directly or through nominated university focal persons.</string>
+    <string name="about_ten">Pakistan Bait-ul-Mal (PBM), an autonomous body set up through 1991 Act. PBM is significantly contributing toward poverty alleviation through its various poorest of the poor focused services and providing assistance to destitute, widow, orphan, invalid, infirm &amp; other needy persons, as per eligibly criteria approved by Bait-ul-Mal Board.\n\nFollowing the vision of the Prime Minister to revolutionize the social services, we have undertaken the responsibility to yield the most effective and positive social change in the country through organizational efforts. By helping abandoned people and their families, PBM is moving on investing that could help trigger a long-term reallocation of capital, talent and other resources for the country which might leave the biggest positive impact on future of Pakistan.</string>
+    <string name="about_eleven">Diya is a lamp (in Urdu), a symbol of light and thereby Hope. In Pakistan, a large portion of the population does not have access to proper education. Diya Pakistan is a professionally managed charitable organization that is committed to eradicating poverty by promoting literacy.\n\nSince 1988, Diya has reached out to talented, financially distressed students with more than 600,000+ merit scholarships valued at more than US$ 10.5+ million, enabling them to continue their education. The impact is eye-opening.</string>
+    <string name="about_twelve">This financial assistance is provided to the schedule caste students (minority students) on the Poverty-Cum Merit basis to the needy and deserving students for bachelor degree programme.</string>
+    <string name="about_thirteen">Sindh is province where young, talented and smart youth is in abundance but in many cases, a lack of resources stops them from reaching their full potential. This becomes increasingly difficult when it comes to gaining entrance to higher education. Sindh Government acknowledges this fact well and has entrusted Sindh Higher Education Commission with a task to assist meritorious and deserving students from both Public and Private Sector Universities through its Scholarships Programme.</string>
+    <string name="about_fourteen">A Memorandum of Understanding has been signed between the University of Sindh and Professor Amena Khamisani Education Assistance under which scholarships will be provided to the female students of the Institute of English Language and Literature consecutively for 3 years.\n\nThis scholarship pays for full admission fees, library fees, tuition, hostel accommodation, PLUS a stipend of Rs 7500 per month till graduation subject to satisfactory academic performance.</string>
+</resources>

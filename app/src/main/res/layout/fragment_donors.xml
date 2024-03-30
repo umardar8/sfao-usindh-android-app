@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.ScholarshipsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_one"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_one"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="@string/awardees_one"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="@string/distributed_one"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_two_thirteen"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_two"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="3700"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 177,600,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_three_fourteen"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_three"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="1200"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 50,400,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_four"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_four"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="60"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 4,800,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_five"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_five"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="192"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 4,224,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_six_twelve"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_six"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="140"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 3,920,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_seven"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_seven"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="1800"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 2,160,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_eight"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_eight"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="15"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 1,080,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_nine"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_nine"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="6"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 660,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_ten"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_ten"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="60"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 3,920,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_eleven"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_eleven"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="10"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 130,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_six_twelve"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_twelve"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="37"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 111,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_two_thirteen"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_thirteen"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="55"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="PKR 2,750,000"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/component_container">
+
+            <ImageView
+                android:src="@drawable/sc_three_fourteen"
+                android:contentDescription="@string/donor_logo"
+                style="@style/list_image" />
+
+            <LinearLayout style="@style/information_column">
+
+                <TextView
+                    android:text="@string/title_fourteen"
+                    style="@style/donor_title" />
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/awardees"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="Yet to Announce"
+                        style="@style/donors_subSection" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/information_lastDate">
+                    <TextView
+                        android:text="@string/distributed"
+                        style="@style/donors_subSection" />
+
+                    <TextView
+                        android:text="Yet to Announce"
+                        style="@style/donors_subSection"
+                        android:textColor="@color/green"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

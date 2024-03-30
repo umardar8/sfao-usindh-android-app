@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue"
+            android:padding="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student Financial Aid Office (SFAO)"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:lineSpacingMultiplier="1.2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="University of Sindh"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65"
+                    android:text="@string/welcome_message"
+                    android:textColor="@color/white"
+                    android:paddingRight="15dp"
+                    android:justificationMode="inter_word"
+                    android:paddingTop="20dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="180dp"
+                    android:layout_weight="0.35"
+                    android:src="@drawable/director_sfao"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="~ Director SFAO"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/donateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donate Us / Sponsor Our Students"
+            android:background="@drawable/bg_round_corners"
+            android:textColor="@color/white"
+            android:paddingHorizontal="30dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/dark_blue"
+            android:backgroundTintMode="src_atop"
+            android:layout_marginVertical="30dp" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="100dp"
+            android:id="@+id/viewPagerImageSlider"
+            android:background="@color/off_white"
+            android:paddingVertical="20dp"/>
+
+        <TextView
+            android:text="Explore Scholarships"
+            android:layout_marginHorizontal="94dp"
+            style="@style/slider_title" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="80dp"
+            android:id="@+id/viewPagerImageSlider2"
+            android:background="@color/off_white"
+            android:paddingVertical="20dp"/>
+
+        <TextView
+            android:text="Distribution Activities"
+            android:layout_marginHorizontal="93dp"
+            style="@style/slider_title" />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+            android:layout_margin="20dp"
+            android:background="@color/black"
+            android:padding="1dp">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</ScrollView>

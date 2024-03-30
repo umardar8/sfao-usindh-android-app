@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.ScholarshipsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal"
+        android:orientation="vertical">
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship1" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship2" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship3" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship4" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship5" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship6" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship7" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship8" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship9" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship10" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship11" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship12" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship13" />
+
+        <include layout="@layout/scholarship_layout"
+            android:id="@+id/scholarship14" />
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_two_thirteen"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_two"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_three_fourteen"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_three"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_four"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_four"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_five"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_five"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_six_twelve"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_six"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_seven"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_seven"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_eight"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_eight"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_nine"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_nine"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_ten"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_ten"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_eleven"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_eleven"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_six_twelve"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_twelve"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_two_thirteen"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_thirteen"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout style="@style/component_container">-->
+
+<!--            <ImageView-->
+<!--                android:src="@drawable/sc_three_fourteen"-->
+<!--                android:contentDescription="@string/donor_logo"-->
+<!--                style="@style/list_image" />-->
+
+<!--            <LinearLayout style="@style/information_column">-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/title_fourteen"-->
+<!--                    style="@style/scholarship_title" />-->
+
+<!--                <LinearLayout style="@style/information_lastDate">-->
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date"-->
+<!--                        style="@style/lastDate_heading" />-->
+
+<!--                    <TextView-->
+<!--                        android:text="@string/last_date_one"-->
+<!--                        style="@style/lastDate_value" />-->
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:text="@string/apply"-->
+<!--                    style="@style/apply_text_button" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+</ScrollView>
